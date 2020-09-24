@@ -1,0 +1,73 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    color: #222;
+}
+.navbar {
+    padding: .8rem;
+}
+
+.navbar-nav li {
+    padding-right: 20px;
+}
+
+.nav-link {
+    font-size: 1.1em !important;
+}
+
+.img-ferry {
+    width: 300px;
+}
+
+.social a {
+    font-size: 4.5em;
+    padding: 3rem;
+}
+
+.fa-facebook {
+    color: #3b5998;
+}
+
+.fa-twitter {
+    color: #00aecd;
+}
+
+.fa-instagram {
+    color: #517fa4;
+}
+
+.fa-youtube {
+    color: #bb0000;
+}
+
+.fa-linkedin {
+color: #007bb6;
+}
+
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-instagram:hover,
+.fa-youtube:hover,
+.fa-linkedin:hover {
+color: #d5d5d5;
+}
+
+footer {
+    background-color: #3f3f3f;
+    color: #d5d5d5;
+    padding-top: 2rem;
+}
+hr.light {
+    border-top: 1px solid #d5d5d5;
+    width: 75%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 992px) {
+    .social a {
+        font-size: 4em;
+        padding: 2rem;
+    }
+    
+}
