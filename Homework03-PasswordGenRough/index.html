@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css"> 
+
+</head>
+<body>
+   
+    
+    <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Password Generator</a>
+    </nav>
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-lg-8 col-sm-12 mx-auto">
+
+                <div class="content">
+                    <h4>Generate a Password</h4>
+                    <br />
+                    <input type="text" id="display" placeholder="Your Secure Password">
+                    <br />
+                    <input type="range" min="8" max="128" name="slider" id="slider">
+                    <br />
+                    <button onclick="generate()">Generate</button>
+                    <button onclick="copyPassword()">Copy to Clipboard</button>
+                    <div id="length"></div>   
+                </div>
+
+                <div class="previous_passwords">
+                    <b>Previously Generated Passwords</b>
+                    <br />
+                    <div id="lastNums"></div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+</html>
